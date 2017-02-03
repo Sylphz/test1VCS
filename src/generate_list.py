@@ -1,6 +1,6 @@
 import random
 def generate_list():
-    alist = [x for x in range(random.radint(-10,10))]
+    alist = [x for x in range(random.randint(-10,10))]
     return alist
 
 """
@@ -17,6 +17,6 @@ def main():
 If this script file is called, it will run main() directly
 """
 
-if_name_=='_main_'
+if __name__=='__main__':
     print("Test printIt():")
     main()
